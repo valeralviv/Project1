@@ -4,14 +4,14 @@ public class Main {
             System.out.print(i + " ");
         }
 
-        //
+        //while
         int j = 500;
         while (j <= 650) {
             System.out.print(j + " ");
             j += 10;
         }
 
-        // do-while
+        //do-while
         int k = 500;
         do {
             System.out.print(k + " ");
