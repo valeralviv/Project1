@@ -1,4 +1,4 @@
-public class Main {
+public class Cycle {
     public static void main(String[] args) {
         for (int i = 500; i <= 650; i += 10) {
             System.out.print(i + " ");
@@ -20,7 +20,7 @@ public class Main {
     }
 }
 
-public class Main2  {
+public class Equation  {
     public static void main(String[] args) {
 
         int a = 2;
@@ -31,7 +31,7 @@ public class Main2  {
     }
 }
 
-public class Main3 {
+public class Numbers {
     public static void main(String[] args) {
         int num = 10;
         for (int i = 1; i <= num; i++) {
@@ -42,7 +42,7 @@ public class Main3 {
     }
 }
 
-public class Main4 {
+public class Factorial {
     public static void main(String[] args) {
         int num = 10;
         int factorial = 1;
@@ -50,19 +50,5 @@ public class Main4 {
             factorial *= i;
         }
         System.out.println(factorial);
-    }
-}
-
-public class Main5 {
-    public static void main(String[] args) {
-        int count = 0;
-        for (int i = 0; i < 24; i++) {
-            for (int j = 0; j < 60; j++) {
-                if (i / 10 == j % 10 && i % 10 == j / 10) {
-                    count++;
-                }
-            }
-        }
-        System.out.println(count);
     }
 }
