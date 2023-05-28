@@ -22,7 +22,7 @@ public class Main {
             System.out.print(array[i] + " ");
         }
         System.out.println();
-        for (int i = 1; i < array.length; i += 2) {
+        for (int i = 0; i < array.length; i += 2) {
             array[i] = 0;
         }
         System.out.print("Оновлений масив: ");
@@ -106,4 +106,4 @@ public class Main {
 
 
     }
-    }
+}
