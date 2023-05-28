@@ -1,5 +1,5 @@
 import java.util.Scanner;
-//1
+
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -12,8 +12,12 @@ public class Main {
         String sentence = word1.concat(" ").concat(word2).concat(" ").concat(word3).concat(" ").concat(word4).concat(" ").concat(word5);
         System.out.println("Результат: " + sentence);
     }
-  
-//2
+}
+// 2
+import java.util.Scanner;
+
+    public class Main2 {
+        public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
             System.out.println("Введіть п'ять слів:");
             String word1 = sc.next();
@@ -23,9 +27,13 @@ public class Main {
             String word5 = sc.next();
             System.out.println("Перші літери слів: " + word1.substring(0, 1) + word2.substring(0, 1) + word3.substring(0, 1) + word4.substring(0, 1) + word5.substring(0, 1));
         }
+    }
+// 3
+import java.util.Scanner;
 
-//3
-Scanner sc = new Scanner(System.in);
+public class Main3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         System.out.println("Введіть три дробові числа:");
         double num1, num2, num3;
         if (sc.hasNextDouble()) {
@@ -53,8 +61,15 @@ Scanner sc = new Scanner(System.in);
         } else {
             System.out.println(num3 + " є найбільшим з введених чисел.");
         }
-//4
-Scanner scanner = new Scanner(System.in);
+    }
+}
+// 4
+
+import java.util.Scanner;
+
+public class Main4 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Введіть перше ім'я: ");
         String firstName = scanner.nextLine();
@@ -69,8 +84,12 @@ Scanner scanner = new Scanner(System.in);
         }
     }
 }
-//5
-Scanner scanner = new Scanner(System.in);
+// 5
+import java.util.Scanner;
+
+public class Main5 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Введіть перший рядок: ");
         String str1 = scanner.nextLine();
@@ -86,7 +105,4 @@ Scanner scanner = new Scanner(System.in);
             System.out.println("Рядки мають однакову довжину.");
         }
     }
-}
-
-
 }
